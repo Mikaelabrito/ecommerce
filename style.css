@@ -117,7 +117,7 @@ button{
     color: #fff;
     font-size: 12px;
     font-weight: bold;
-    padding: 12px 45px;
+    padding: 12px 35px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -150,6 +150,7 @@ button{
     border: 1px solid #fff;
     background: transparent;
     border-radius: 20px;
+    margin-top: 2rem;
 }
 .overlay {
     position: relative;
@@ -198,17 +199,18 @@ p {
     transform: translateX(-150%);
 
 }
-.right-panel-active .overlay{
+ .right-panel-active .overlay{
     transform: translateX(50%);
-}
+} 
 .right-panel-active .overlay-left{
     transform: translateX(25%);
 }
 .right-panel-active .overlay-left{
-    transform: translateX(35%);
+    transform: translateX(25%);
 }
 .right-panel-active .sign-in-container{
-    transform: translateX(20%);
+    transform: translateX(0%);
+    width: 40%;
 }
 .right-panel-active .sign-up-container{
     transform: translateX(66.7%);
